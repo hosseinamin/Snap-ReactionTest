@@ -182,6 +182,39 @@ window.GameConfig =
       ]
     }
     {
+      value: "christmas"
+      label: "Christmas"
+      images: [
+        "assets/img/arasaac-christmas/Christmas.png"
+        "assets/img/arasaac-christmas/Christmas_Day.png"
+        "assets/img/arasaac-christmas/Christmas_Eve.png"
+        "assets/img/arasaac-christmas/Christmas_Star.png"
+        "assets/img/arasaac-christmas/Christmas_card.png"
+        "assets/img/arasaac-christmas/Christmas_garland.png"
+        "assets/img/arasaac-christmas/Christmas_stocking.png"
+        "assets/img/arasaac-christmas/Christmas_tree.png"
+        "assets/img/arasaac-christmas/Father_Christmas-2.png"
+        "assets/img/arasaac-christmas/Father_Christmas.png"
+        "assets/img/arasaac-christmas/Father_Christmas_cap.png"
+        "assets/img/arasaac-christmas/Rudolf_the_Red-Nosed_Reindeer.png"
+        "assets/img/arasaac-christmas/Santas_sledge.png"
+        "assets/img/arasaac-christmas/Three_Wise_Mens_Day.png"
+        "assets/img/arasaac-christmas/bells.png"
+        "assets/img/arasaac-christmas/carol.png"
+        "assets/img/arasaac-christmas/christmas_ball.png"
+        "assets/img/arasaac-christmas/christmas_balls.png"
+        "assets/img/arasaac-christmas/garland-2.png"
+        "assets/img/arasaac-christmas/garland.png"
+        "assets/img/arasaac-christmas/gift-2.png"
+        "assets/img/arasaac-christmas/gift.png"
+        "assets/img/arasaac-christmas/letter.png"
+        "assets/img/arasaac-christmas/party_blower.png"
+        "assets/img/arasaac-christmas/roast_turkey.png"
+        "assets/img/arasaac-christmas/shepherd.png"
+        "assets/img/arasaac-christmas/snowman.png"
+      ]
+    }
+    {
       value: "custom"
       label: "Your custom images"
     }
