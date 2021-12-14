@@ -6,6 +6,15 @@ $selectReset = ($sel, list) ->
   )
   $sel
 
+
+parseLocationQuery = () ->
+  output = {}
+  query = window.location.search.substring(1)
+  for entry in query.split('&')
+    pair = entry.split('=')
+    output[decodeURIComponent(pair[0])] = pair[1]
+  output
+ 
 window.Parsley
   .addValidator('fileType', {
     requirementType: 'string'
@@ -115,6 +124,10 @@ class GameSetup
 
   _initiate: ->
     @resetSelectOptions()
+    # initialize from queries
+    locquery = parseLocationQuery()
+    if locquery.preset
+      @$form.find('[name=images_preset]').val(locquery.preset)
     @$form.parsley(GameConfig.ParsleyConfig)
 
   resetSelectOptions: ->
